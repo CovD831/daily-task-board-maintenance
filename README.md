@@ -16,8 +16,3 @@
 ## 验证
 
 零上下文 A/B 对照（同一 git 仓库、同模型、严格只读）：带技能的代理找出 7 条真实状态失真 + 归因（含「planned 但前置已解除」「已合并 25 分钟后账本仍未回写」两类基线遗漏）；无技能基线仅发现 2 条账本过期，且不做「planned 是否该升 ready」的反向核查。增量可归因到技能内「三类必查」条文。
-
-## 相关
-
-- [skill-mining](https://github.com/CovD831/skill-mining) —— 从项目开发史提取可移植 skill
-- 全部技能索引：[agent-skills](https://github.com/CovD831/agent-skills)
